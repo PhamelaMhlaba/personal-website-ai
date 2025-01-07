@@ -8,7 +8,7 @@ export default function About() {
       <FadeInSection>
         <section id="about" className="py-20 bg-secondary bg-opacity-10" aria-label="About Me">
           <div className="container mx-auto px-4">
-            <h2 className="text-3xl font-bold text-center mb-12 text-primary">About Me</h2>
+            <h1 className="text-3xl font-bold text-center mb-12 text-primary">About Me</h1>
             <div className="flex flex-col md:flex-row items-center md:items-start gap-12">
               <div className="w-full md:w-1/3 flex justify-center">
                 <Image 
@@ -20,7 +20,7 @@ export default function About() {
                   loading="lazy"
                 />
               </div>
-              <div className="w-full md:w-2/3 text-lg leading-relaxed text-text">
+              <article className="w-full md:w-2/3 text-lg leading-relaxed text-text">
                 <p className="mb-6">
                   As one of the 35 Founding Members of Project Y, selected from over 21,000 applicants, I have proven my ability to excel in high-pressure, competitive environments. Through Re:Coded's rigorous Full Stack Development bootcamp, I've honed my expertise in cutting-edge technologies, equipping me to build dynamic, scalable, and secure web applications.
                 </p>
@@ -36,7 +36,7 @@ export default function About() {
                 <p className="mb-6">
                   Outside the code, I am equally passionate about health and wellness, hiking, and personal growth. I bring this same energy and drive into my work, continuously seeking opportunities to innovate and push boundaries. I am not just building applications—I am building a legacy of impactful solutions and meaningful connections.
                 </p>
-              </div>
+              </article>
             </div>
           </div>
         </section>
