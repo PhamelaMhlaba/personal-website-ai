@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import FadeInSection from './FadeInSection'
-?import ErrorBoundary from './ErrorBoundary'
+import ErrorBoundary from './ErrorBoundary'
 
 export default function About() {
   return (
